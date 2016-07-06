@@ -13,7 +13,7 @@
         android:id="@+id/edit1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_toStartOf="@+id/button3"
+        android:layout_toStartOf="@+id/buttonMul"
         android:hint="s1" />
 
     <EditText
@@ -25,34 +25,34 @@
         android:hint="s2" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/buttonAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/edit1"
         android:text="+" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonSub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/edit1"
-        android:layout_toRightOf="@id/button1"
+        android:layout_toRightOf="@id/buttonAdd"
         android:text="-" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonMul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/edit1"
-        android:layout_toRightOf="@id/button2"
+        android:layout_toRightOf="@id/buttonSub"
         android:text="×" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonDiv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/edit1"
-        android:layout_toRightOf="@id/button3"
+        android:layout_toRightOf="@id/buttonMul"
         android:text="÷" />
 
 </RelativeLayout>

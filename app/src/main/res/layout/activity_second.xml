@@ -9,4 +9,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="jp.techacademy.takefumi.onishi.calcapp.SecondActivity">
 
+    <TextView
+        android:id="@+id/textans"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="answer" />
+
+    <Button
+        android:id="@+id/textback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textans"
+        android:text="back" />
 </RelativeLayout>

@@ -54,10 +54,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             break;
             default:
         }*/
-
         Intent intent = new Intent(this, SecondActivity.class);
-        intent.putExtra("edit1", editText1.getText());
-        intent.putExtra("edit2", editText2.getText());
+        intent.putExtra("edit1", Double.parseDouble(editText1.getText().toString()));
+        intent.putExtra("edit2", Double.parseDouble(editText2.getText().toString()));
         intent.putExtra("type", type);
 
         startActivity(intent);
