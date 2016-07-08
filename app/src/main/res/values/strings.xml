@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CalcApp</string>
+    <string name="s1">s1</string>
+    <string name="ADD">+</string>
+    <string name="SUB">-</string>
+    <string name="MUL">×</string>
+    <string name="DEV">÷</string>
+    <string name="s2">s2</string>
+    <string name="answer">answer</string>
+    <string name="back">back</string>
 </resources>

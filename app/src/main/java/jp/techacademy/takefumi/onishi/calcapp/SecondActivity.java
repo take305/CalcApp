@@ -11,7 +11,6 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
     TextView textans;
     double value1;
     double value2;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,16 +23,16 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
         value2 = intent.getDoubleExtra("edit2", 0);
         int type = intent.getIntExtra("type", 0);
         switch (type) {
-            case 1:
+            case Globals.TYPE_ADD:
                 textans.setText(String.valueOf(value1 + value2));
                 break;
-            case 2:
+            case Globals.TYPE_SUB:
                 textans.setText(String.valueOf(value1 - value2));
                 break;
-            case 3:
+            case Globals.TYPE_MUL:
                 textans.setText(String.valueOf(value1 * value2));
                 break;
-            case 4:
+            case Globals.TYPE_DEV:
                 textans.setText(String.valueOf(value1 / value2));
                 break;
             default:
